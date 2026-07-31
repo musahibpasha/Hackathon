@@ -1,0 +1,172 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"on-secondary-container":"#005f71","inverse-on-surface":"#ecf0ff","error-container":"#ffdad6","on-secondary-fixed-variant":"#004e5d","inverse-primary":"#b2c5ff","on-primary-fixed":"#001848","on-tertiary-fixed":"#0a1e21","tertiary":"#334649","secondary-container":"#50dcff","on-secondary":"#ffffff","surface-container-high":"#dfe8ff","on-primary-fixed-variant":"#0040a2","on-primary":"#ffffff","background":"#f9f9ff","error":"#ba1a1a","primary-fixed":"#dae2ff","on-tertiary-fixed-variant":"#364a4d","surface-tint":"#0c56d0","tertiary-fixed-dim":"#b5cacd","outline-variant":"#c3c6d6","on-background":"#091c35","on-error-container":"#93000a","surface-dim":"#cadbfc","primary-container":"#0052cc","surface-container":"#e7eeff","on-error":"#ffffff","outline":"#737685","surface-bright":"#f9f9ff","tertiary-container":"#4a5e61","on-tertiary":"#ffffff","surface-container-lowest":"#ffffff","surface-variant":"#d6e3ff","on-secondary-fixed":"#001f27","inverse-surface":"#20314b","primary-fixed-dim":"#b2c5ff","surface-container-highest":"#d6e3ff","tertiary-fixed":"#d1e7e9","on-primary-container":"#c4d2ff","surface-container-low":"#f0f3ff","surface":"#f9f9ff","on-tertiary-container":"#c1d7da","secondary-fixed-dim":"#48d7f9","primary":"#003d9b","secondary-fixed":"#afecff","on-surface-variant":"#434654","on-surface":"#091c35","secondary":"#00687b"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"16px","base":"4px","gutter":"24px","margin-desktop":"48px","margin-tablet":"32px","container-max":"1440px"},"fontFamily":{"body-lg":["Inter"],"label-md":["Inter"],"body-md":["Inter"],"headline-lg":["Inter"],"headline-md":["Inter"],"headline-lg-mobile":["Inter"],"label-sm":["Inter"],"headline-sm":["Inter"],"body-sm":["Inter"]},"fontSize":{"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}}</script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-background font-body-md text-on-surface"><main class="w-full flex items-center justify-center min-h-screen px-margin-mobile"><div class="flex flex-col w-full">
+<!-- Interactive Background Layer -->
+<div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+<svg class="absolute top-[-10%] right-[-10%] w-[60%] h-[60%] opacity-20" fill="none" viewbox="0 0 800 800">
+<circle cx="400" cy="400" fill="url(#grad1)" r="300"></circle>
+<defs>
+<radialgradient cx="0" cy="0" gradienttransform="translate(400 400) rotate(90) scale(300)" gradientunits="userSpaceOnUse" id="grad1" r="1">
+<stop stop-color="#50dcff"></stop>
+<stop offset="1" stop-color="#f9f9ff" stop-opacity="0"></stop>
+</radialgradient>
+</defs>
+</svg>
+<div class="absolute bottom-[5%] left-[2%] w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse"></div>
+</div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 min-h-[85vh] gap-gutter items-center max-w-container-max mx-auto w-full">
+<!-- Illustration Section -->
+<div class="lg:col-span-7 flex flex-col justify-center space-y-12 pr-0 lg:pr-12">
+<div class="relative group">
+<!-- Decorative Frame Accent -->
+<div class="absolute -inset-4 bg-gradient-to-tr from-secondary-container/20 to-transparent rounded-[2rem] -rotate-2 scale-105 transition-transform group-hover:rotate-0 duration-700"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 group-hover:shadow-primary-container/10">
+<img alt="Healthcare Consultation Illustration" class="w-full h-auto object-cover transform transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYi9n3V64vHF9Oom_c70_QI-oxZnRkmPOuH_GPNlnujMjsrfyvvkq-oX3h2NPrNUWTjuwAm-BFW6wnRDc8ejDNF8thdDCrmRfkStmvbkN6ZywyGKZHLGP_EShit4tSjF_YHnAraBPpOHlug0cU7EGc8q_oAamx5ddhCTMaXqDlaiWNwzhf_8DNzQzIHXMr4jygY7ZgRTgqgGl3ygfhCw_HHAQAukOH3KUjaN5UopGOM1NyzRvWcIK_"/>
+</div>
+<!-- Floating Stats/Micro-UI element for visual richness -->
+<div class="absolute -bottom-6 -right-6 bg-surface p-6 rounded-xl shadow-xl hidden xl:block border border-outline-variant/30 backdrop-blur-md bg-surface/90">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-container/30 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container">verified_user</span>
+</div>
+<div>
+<p class="font-label-sm text-outline uppercase tracking-wider">Security Status</p>
+<p class="font-headline-sm text-on-surface">HIPAA Compliant</p>
+</div>
+</div>
+</div>
+</div>
+<div class="space-y-4">
+<h2 class="font-headline-lg text-primary text-5xl lg:text-6xl max-w-xl leading-tight">
+          Your Trusted <br/>Partner in Health.
+        </h2>
+<div class="flex items-center gap-3">
+<div class="h-[2px] w-12 bg-secondary"></div>
+<p class="font-body-lg text-on-surface-variant">
+            Access your patient portal securely from any device.
+          </p>
+</div>
+</div>
+</div>
+<!-- Login Card Section -->
+<div class="lg:col-span-5 flex justify-center lg:justify-end">
+<div class="w-full max-w-[480px] bg-surface-container-lowest p-margin-desktop rounded-xl shadow-xl border border-outline-variant/20 relative overflow-hidden">
+<!-- Subtle gradient glow in corner -->
+<div class="absolute -top-24 -right-24 w-48 h-48 bg-primary/5 rounded-full blur-3xl"></div>
+<div class="relative">
+<header class="mb-10">
+<p class="font-label-md text-primary uppercase tracking-[0.2em] mb-2">Patient Portal</p>
+<h1 class="font-headline-lg text-on-surface">Welcome Back</h1>
+<p class="font-body-md text-on-surface-variant mt-2">Enter your credentials to manage your care.</p>
+</header>
+<form class="space-y-6" id="loginForm" onsubmit="event.preventDefault(); handleLogin();">
+<div class="space-y-1">
+<label class="font-label-sm text-on-surface-variant ml-1" for="identifier">Email or Phone Number</label>
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline group-focus-within:text-primary transition-colors">alternate_email</span>
+<input class="w-full pl-12 pr-4 py-4 bg-surface-container border border-outline-variant rounded-lg font-body-md outline-none transition-all focus:ring-2 focus:ring-primary/20 focus:border-primary placeholder:text-outline/60" id="identifier" placeholder="name@example.com" type="text"/>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between items-center px-1">
+<label class="font-label-sm text-on-surface-variant" for="password">Password</label>
+<a class="font-label-sm text-primary hover:underline transition-all" href="#">Forgot?</a>
+</div>
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline group-focus-within:text-primary transition-colors">lock</span>
+<input class="w-full pl-12 pr-12 py-4 bg-surface-container border border-outline-variant rounded-lg font-body-md outline-none transition-all focus:ring-2 focus:ring-primary/20 focus:border-primary placeholder:text-outline/60" id="password" placeholder="••••••••" type="password"/>
+<button class="absolute right-4 top-1/2 -translate-y-1/2 text-outline hover:text-on-surface transition-colors" onclick="togglePassword()" type="button">
+<span class="material-symbols-outlined" id="eyeIcon">visibility</span>
+</button>
+</div>
+</div>
+<div class="flex items-center gap-2 px-1">
+<input class="w-4 h-4 accent-primary rounded cursor-pointer" id="remember" type="checkbox"/>
+<label class="font-body-sm text-on-surface-variant cursor-pointer" for="remember">Stay logged in for 30 days</label>
+</div>
+<button class="w-full py-4 bg-primary text-on-primary font-label-md rounded-lg shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 transition-all active:scale-95 flex items-center justify-center gap-2" id="loginBtn" type="submit">
+<span>Log In to Account</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</form>
+<div class="mt-10 pt-10 border-t border-outline-variant/30 text-center">
+<p class="font-body-md text-on-surface-variant">
+              New to our platform? 
+              <a class="text-primary font-label-md hover:underline ml-1" href="#">Create an Account</a>
+</p>
+</div>
+</div>
+</div>
+<!-- Security Trust Badges (Desktop Only) -->
+<div class="hidden lg:flex absolute bottom-[-4rem] right-0 gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+<div class="flex items-center gap-2 font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">security</span>
+          SSL Encryption
+        </div>
+<div class="flex items-center gap-2 font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+          Verified Provider
+        </div>
+</div>
+</div>
+</div>
+<script>
+    function togglePassword() {
+      const input = document.getElementById('password');
+      const icon = document.getElementById('eyeIcon');
+      if (input.type === 'password') {
+        input.type = 'text';
+        icon.innerText = 'visibility_off';
+      } else {
+        input.type = 'password';
+        icon.innerText = 'visibility';
+      }
+    }
+
+    function handleLogin() {
+      const btn = document.getElementById('loginBtn');
+      const originalText = btn.innerHTML;
+      
+      // Visual feedback for interaction
+      btn.disabled = true;
+      btn.innerHTML = `
+        <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        <span>Authenticating...</span>
+      `;
+
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+        // In a real app, this would redirect
+        alert('Login mechanism triggered successfully.');
+      }, 1500);
+    }
+
+    // Intersection observer for entrance animations
+    const observerOptions = {
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100', 'translate-y-0');
+          entry.target.classList.remove('opacity-0', 'translate-y-8');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+  </script>
+<style>
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    .floating { animation: float 6s ease-in-out infinite; }
+  </style>
+</div></main></body></html>
